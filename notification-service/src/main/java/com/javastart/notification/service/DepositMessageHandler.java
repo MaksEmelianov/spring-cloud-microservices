@@ -40,7 +40,6 @@ public class DepositMessageHandler {
             javaMailSender.send(mailMessage);
         } catch (Exception exception) {
             exception.printStackTrace();
-            System.out.println(exception);
         }
     }
 }
