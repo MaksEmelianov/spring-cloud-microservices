@@ -367,12 +367,16 @@ Docker-compose настраивается в файле .yml.
 - Запуск баз данных
 - Запустите RabbitMQ в Docker
 - Убедитесь, что вы создали проект
-- 
-### Important endpoints
 
-- http://localhost:8989 - Gateway
-- http://localhost:8761 - Eureka Dashboard
-- http://localhost:15672 - RabbitMQ management (default login/password: guest/guest)
+### Important endpoints
+ 
+- config-service port 8001
+- registry-service port 8761
+- gateway port 8989
+- acount-service port 8081
+- deposit-serivce port 9999
+- bill-service port 8082
+- notification-service port 9999
 
 ### Notes
 
